@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const express = require('express')
 const bodyParser = require('body-parser');
-const config = require('./config/config.' + (process.env.NODE_ENV.trim() === 'production' ? 'prod' : 'dev'));
+const config = require('./config/config.' + (process.env.NODE_ENV === 'production' ? 'prod' : 'dev'));
 
 const app = express()
 app.use(bodyParser.json());
@@ -18,7 +18,7 @@ app.post('/api/user', (req, res) => {
 
 // Configuração do servidor Express...
 app.listen(port, () => {
-  console.log(`Servidor rodando em [http://localhost:${port}] em [${process.env.NODE_ENV.trim() === 'production' ? 'produção' : 'desenvolvimento'}]`);
+  console.log(`Servidor rodando em [http://localhost:${port}] em [${process.env.NODE_ENV === 'production' ? 'produção' : 'desenvolvimento'}]`);
 });
 // const port = 3000
 // const bodyParser = require('body-parser');

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "\"# lookingforjob\"",
   "scripts": {
+    "server": "cd server && npm i && npm run serve"
   },
   "repository": {
     "type": "git",
