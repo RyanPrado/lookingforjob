@@ -1,16 +1,15 @@
 {
   "name": "lookingforjob",
   "version": "1.0.0",
-  "description": "Aplicação desenvolvida para auxiliar na busca por emprego através da plataforma linkedin",
-  "main": "app.js",
+  "description": "\"# lookingforjob\"",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RyanPrado/lookingforjob.git"
   },
-  "author": "Ryan Prado",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RyanPrado/lookingforjob/issues"
